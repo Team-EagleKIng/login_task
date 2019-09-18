@@ -1,7 +1,7 @@
 const config = {
   appName: process.env.APP_NAME,
   server: {
-    port: process.env.APP_PORT || 5000
+    port: process.env.PORT || 5000
   },
   mongo: {
     salt_value: 10,
