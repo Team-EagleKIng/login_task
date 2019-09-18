@@ -25,6 +25,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, (res) => {
-    console.log(`${appName} is listening on ${port}`)
+    console.log(`${appName} is listening on ${port}, '0.0.0.0'`)
 });
 
